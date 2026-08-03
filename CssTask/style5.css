@@ -1,0 +1,22 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+}
+
+.contact{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 15px;
+    z-index: 100;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+.contact:hover{
+    background-color: lightgreen;
+}
