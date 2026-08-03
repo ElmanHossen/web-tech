@@ -1,0 +1,48 @@
+body{
+    font-family: Arial;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box1{
+    width: 200px;
+    height: 120px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 1;
+}
+
+.box2{
+    width: 200px;
+    height: 120px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    z-index: 2;
+}
+
+.box3{
+    width: 200px;
+    height: 120px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    z-index: 3;
+}
