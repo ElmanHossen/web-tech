@@ -1,0 +1,45 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#about {
+    background-color: #ffe4e1;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#education {
+    background-color: #e0ffff;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+#hobbies {
+    background-color: #f0fff0;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.section h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin: 10px 0;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    width: 80%;
+    background-color: #666;
+    margin: 20px auto;
+}

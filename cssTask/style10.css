@@ -1,0 +1,43 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.box {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.blue {
+    background-color: blue;
+    top: 50px;
+    left: 100px;
+    z-index: 2;
+}
+
+.green {
+    background-color: green;
+    top: 100px;
+    left: 50px;
+    z-index: 3;
+}
