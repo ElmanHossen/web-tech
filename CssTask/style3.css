@@ -1,0 +1,33 @@
+body{
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: steelblue;
+    width: 100%;
+    padding: 15px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    margin-top: 40px;
+}
+
+p{
+    text-align: center;
+}
