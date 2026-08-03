@@ -1,0 +1,38 @@
+body{
+    font-family: Arial;
+    margin: 20px;
+}
+
+.sidebar{
+    display: inline-block;
+    width: 20%;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+.main{
+    display: inline-block;
+    width: 50%;
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+.ad{
+    display: inline-block;
+    width: 18%;
+    background-color: lightyellow;
+    border: 2px solid black;
+    padding: 15px;
+    margin: 5px;
+    vertical-align: top;
+}
+
+h2{
+    text-align: center;
+}
