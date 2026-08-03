@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style9.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#" id="navAbout">About</a>
+            <a href="#" id="navProjects">Projects</a>
+            <a href="#" id="navContact">Contact</a>
+        </nav>
+        <button id="themeBtn">Switch to Dark Mode</button>
+    </header>
+    <div id="greeting"></div>
+    <div id="clock"></div>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am a passionate web developer. I love creating interactive and modern websites.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my recent projects including web apps and design work.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="cName" placeholder="Your Name">
+            <p class="error" id="nameErr"></p>
+            <input type="text" id="cEmail" placeholder="Your Email">
+            <p class="error" id="emailErr"></p>
+            <textarea id="cMessage" rows="4" placeholder="Your Message"></textarea>
+            <p class="error" id="msgErr"></p>
+            <button type="submit">Send</button>
+            <p id="cSuccess"></p>
+        </form>
+    </section>
+    <footer>
+        <p>2026 Portfolio</p>
+    </footer>
+    <script src="script9.js"></script>
+</body>
+</html>
